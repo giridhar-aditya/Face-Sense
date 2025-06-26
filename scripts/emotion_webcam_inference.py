@@ -8,7 +8,7 @@ import torch.nn.functional as F
 # Load model
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model = EmotionEfficientNet(num_classes=7).to(device)
-model.load_state_dict(torch.load("model/emotion_effnet_model.pt", map_location=device))
+model.load_state_dict(torch.load("models/emotion_effnet_model.pt", map_location=device))
 model.eval()
 print("✅ Model loaded")
 
