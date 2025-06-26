@@ -47,7 +47,7 @@ Most traditional models, including classical CNNs, often reach accuracies around
 
 ---
 ## Multi-Class HeatMap 
-![HeatMap](model/confusion_matrix_heatmap.png)
+![HeatMap](models/confusion_matrix_heatmap.png)
 
 ## Features
 
