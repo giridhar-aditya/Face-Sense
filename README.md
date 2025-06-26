@@ -6,7 +6,7 @@ This project trains an emotion detection model on the FER2013 dataset using a pr
 
 ## Dataset & Classes
 
-- FER2013 dataset (48x48 grayscale images)  
+- [FER2013 dataset](https://www.kaggle.com/datasets/msambare/fer2013) (48x48 grayscale images)  
 - 7 emotion classes:  
   Angry 😠, Disgust 🤢, Fear 😨, Happy 😀, Sad 😢, Surprise 😲, Neutral 😐
 
@@ -46,6 +46,8 @@ Most traditional models, including classical CNNs, often reach accuracies around
 | Transfer learning EfficientNet (this work) | **69.6**   | Efficient, balanced, better generalization |
 
 ---
+## Multi-Class HeatMap 
+![HeatMap](model/confusion_matrix_heatmap.png)
 
 ## Features
 
