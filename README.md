@@ -9,7 +9,7 @@ This project trains an emotion detection model on the FER2013 dataset using a pr
 - [FER2013 dataset](https://www.kaggle.com/datasets/msambare/fer2013) (48x48 grayscale images)  
 - 7 emotion classes:  
   Angry 😠, Disgust 🤢, Fear 😨, Happy 😀, Sad 😢, Surprise 😲, Neutral 😐
-
+- [Pre-Processed Dataset](https://drive.google.com/file/d/1Eh0YJmBeqH5v0FVsZJ2MLrCRD2McrVaL/view?usp=sharing) used for training the model.
 ---
 
 ## Results
